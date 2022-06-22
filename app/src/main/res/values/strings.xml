@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Cadastro de Pessoas</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="titulo_app">Sistema de Cadastro de Pessoas</string>
+    <string name="boas_vindas">Bem vindo(a)!</string>
+    <string name="nome">Nome</string>
+    <string name="nome_hint">Digite seu nome completo</string>
+    <string name="endereco_hint">Digite seu endereço completo</string>
+    <string name="endereco">Endereço</string>
+    <string name="estado">Estado</string>
+    <string name="cidade">Cidade</string>
+    <string name="telefone">Telefone</string>
+    <string name="e_mail">E-mail</string>
+    <string name="estado_hint">Digite seu Estado de origem</string>
+    <string name="instrucoes">Informe os dados para efetuar o cadastro:</string>
+    <string name="cidade_hint">Digite sua cidade de origem</string>
+    <string name="telefone_hint">Digite seu telefone</string>
+    <string name="email_hint">Digite seu e-mail</string>
+    <string name="cadastrar">Cadastrar</string>
+    <string name="tela_inicial">Tela Inicial</string>
+    <string name="tela_de_cadastro">Tela de Cadastro</string>
+    <string name="dados_cadastrados">Dados Cadastrados</string>
+    <string name="publicacoes">Publicações</string>
+    <string name="formacao">Formação</string>
+    <string name="informacoes_pessoais">Informações Pessoais</string>
+    <string name="cursos">Cursos</string>
+    <string name="experiencia_profissional">Experiência Profissional</string>
+    <string name="descricao_formacao">Curso Técnico em Estradas e Rodagens no CEFET - RJ
+        \n\nCursando Análise e Desenvolvimento de Sistemas no Instituto Infnet
+    </string>
+    <string name="descricao_publicacoes">Não existem artigos publicados</string>
+    <string name="descricao_cursos">Android com Kotlin: criando um app
+    \n\nC# parte 1: primeiros passos
+    \n\nC# parte 2: Entendendo a Orientação a Objetos
+    \n\nC# parte 3: entendendo herança e interface
+    \n\nExtreme Programming: metodologia de desenvolvimento ágil de software</string>
+    <string name="descricao_experiencia_profissional"><b>Promon Engenharia</b>
+    \n\n Analista de Sistemas de Engenharia - 2021 até o presente momento
+    \n\n Projetista de Estruturas de Concreto Armado - 2006 até 2021
+    \n\n Projetista de Estruturas Metálicas - 2006 até 2021
+    \n\n Desenhista Projetista - 1999 até 2005</string>
+    <string name="descricao_foto">Homem moreno com barba e óculos sorrindo.</string>
+</resources>

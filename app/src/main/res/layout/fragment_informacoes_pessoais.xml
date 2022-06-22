@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                                   xmlns:app="http://schemas.android.com/apk/res-auto"
+                                                   xmlns:tools="http://schemas.android.com/tools"
+                                                   android:layout_width="match_parent"
+                                                   android:layout_height="match_parent"
+                                                   tools:context=".Fragments.InformacoesPessoaisFragment"
+                                                   android:id="@+id/frameLayout3" android:layout_margin="16dp">
+
+
+    <ImageView
+            android:src="@drawable/foto"
+            android:layout_width="134dp"
+            android:layout_height="139dp" android:id="@+id/imageView"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="12dp"
+            android:contentDescription="@string/descricao_foto"/>
+    <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Nome: Carlos Eduardo da Silva Louvize"
+            android:id="@+id/lblInfoNome" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="12dp" app:layout_constraintStart_toEndOf="@+id/imageView"/>
+    <TextView
+            android:text="Idade: 42 anos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/lblInfoIdade"
+            app:layout_constraintTop_toBottomOf="@+id/lblInfoNome"
+            app:layout_constraintBottom_toTopOf="@+id/lblInfoNascimento" android:layout_marginTop="12dp"
+            app:layout_constraintStart_toEndOf="@+id/imageView"/>
+    <TextView
+            android:text="Data de nascimento: 13/03/1980"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/lblInfoNascimento"
+            app:layout_constraintStart_toStartOf="@+id/lblInfoIdade"
+            app:layout_constraintTop_toBottomOf="@+id/lblInfoIdade"
+            app:layout_constraintBottom_toTopOf="@+id/lblInfoEstadoCivil" android:layout_marginTop="12dp"/>
+    <TextView
+            android:text="Estado civil: Casado"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/lblInfoEstadoCivil"
+            app:layout_constraintStart_toStartOf="@+id/lblInfoNascimento"
+            app:layout_constraintTop_toBottomOf="@+id/lblInfoNascimento"
+            app:layout_constraintBottom_toTopOf="@+id/lblInfoTelefone" android:layout_marginTop="12dp"/>
+    <TextView
+            android:text="(11) 9999-9999"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/lblInfoTelefone"
+            app:layout_constraintStart_toStartOf="@+id/lblInfoEstadoCivil"
+            app:layout_constraintTop_toBottomOf="@+id/lblInfoEstadoCivil"
+            app:layout_constraintBottom_toTopOf="@+id/lblEmailCadastrado" android:layout_marginTop="12dp"/>
+    <TextView
+            android:text="eduardolouvize@gmail.com"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/lblEmailCadastrado"
+            app:layout_constraintStart_toStartOf="@+id/lblInfoTelefone"
+            app:layout_constraintTop_toBottomOf="@+id/lblInfoTelefone"
+            android:layout_marginTop="12dp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
