@@ -41,4 +41,12 @@
     \n\n Projetista de Estruturas Metálicas - 2006 até 2021
     \n\n Desenhista Projetista - 1999 até 2005</string>
     <string name="descricao_foto">Homem moreno com barba e óculos sorrindo.</string>
+    <string name="exportar">Exportar</string>
+    <string name="nome_carlos_eduardo_da_silva_louvize">Nome: Carlos Eduardo da Silva Louvize</string>
+    <string name="idade_42_anos">Idade: 42 anos</string>
+    <string name="data_de_nascimento">Data de nascimento: 15/07/1977</string>
+    <string name="estado_civil_casado">Estado civil: Casado</string>
+    <string name="numero_telefone">(11) 9999–9999</string>
+    <string name="eduardolouvize_gmail_com">eduardolouvize@gmail.com</string>
+    <string name="estah_em_dia">Está em dia</string>
 </resources>

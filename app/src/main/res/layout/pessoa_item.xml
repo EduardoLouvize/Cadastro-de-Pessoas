@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                                   xmlns:app="http://schemas.android.com/apk/res-auto"
+                                                   android:layout_width="match_parent"
+                                                   android:layout_height="wrap_content"
+                                                   android:layout_marginBottom="16dp">
+
+    <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/nome"
+            android:id="@+id/lblNomeCadastrado" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" app:layout_constraintStart_toStartOf="parent"
+    />
+    <TextView
+            android:text="@string/endereco"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/lblEnderecoCadastrado"
+            app:layout_constraintTop_toBottomOf="@+id/lblNomeCadastrado" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toTopOf="@+id/lblEstadoCadastrado" android:layout_marginTop="4dp"/>
+    <TextView
+            android:text="@string/estado"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/lblEstadoCadastrado"
+            app:layout_constraintStart_toStartOf="@+id/lblEnderecoCadastrado"
+            app:layout_constraintTop_toBottomOf="@+id/lblEnderecoCadastrado"
+            app:layout_constraintBottom_toTopOf="@+id/lblCidadeCadastrada" android:layout_marginTop="4dp"/>
+    <TextView
+            android:text="@string/cidade"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/lblCidadeCadastrada"
+            app:layout_constraintStart_toStartOf="@+id/lblEstadoCadastrado"
+            app:layout_constraintTop_toBottomOf="@+id/lblEstadoCadastrado"
+            app:layout_constraintBottom_toTopOf="@+id/lblTelefoneCdastrado" android:layout_marginTop="4dp"/>
+    <TextView
+            android:text="@string/telefone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/lblTelefoneCdastrado"
+            app:layout_constraintStart_toStartOf="@+id/lblCidadeCadastrada"
+            app:layout_constraintTop_toBottomOf="@+id/lblCidadeCadastrada"
+            app:layout_constraintBottom_toTopOf="@+id/lblEmailCadastrado" android:layout_marginTop="4dp"/>
+    <TextView
+            android:text="@string/e_mail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/lblEmailCadastrado"
+            app:layout_constraintStart_toStartOf="@+id/lblTelefoneCdastrado"
+            app:layout_constraintTop_toBottomOf="@+id/lblTelefoneCdastrado"
+            android:layout_marginTop="4dp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

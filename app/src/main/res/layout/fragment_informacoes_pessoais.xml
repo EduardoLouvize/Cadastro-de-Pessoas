@@ -4,7 +4,7 @@
                                                    xmlns:tools="http://schemas.android.com/tools"
                                                    android:layout_width="match_parent"
                                                    android:layout_height="match_parent"
-                                                   tools:context=".Fragments.InformacoesPessoaisFragment"
+                                                   tools:context=".fragments.InformacoesPessoaisFragment"
                                                    android:id="@+id/frameLayout3" android:layout_margin="16dp">
 
 
@@ -18,40 +18,40 @@
     <TextView
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:text="Nome: Carlos Eduardo da Silva Louvize"
+            android:text="@string/nome_carlos_eduardo_da_silva_louvize"
             android:id="@+id/lblInfoNome" app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             android:layout_marginTop="12dp" app:layout_constraintStart_toEndOf="@+id/imageView"/>
     <TextView
-            android:text="Idade: 42 anos"
+            android:text="@string/idade_42_anos"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" android:id="@+id/lblInfoIdade"
             app:layout_constraintTop_toBottomOf="@+id/lblInfoNome"
             app:layout_constraintBottom_toTopOf="@+id/lblInfoNascimento" android:layout_marginTop="12dp"
             app:layout_constraintStart_toEndOf="@+id/imageView"/>
     <TextView
-            android:text="Data de nascimento: 13/03/1980"
+            android:text="@string/data_de_nascimento"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" android:id="@+id/lblInfoNascimento"
             app:layout_constraintStart_toStartOf="@+id/lblInfoIdade"
             app:layout_constraintTop_toBottomOf="@+id/lblInfoIdade"
             app:layout_constraintBottom_toTopOf="@+id/lblInfoEstadoCivil" android:layout_marginTop="12dp"/>
     <TextView
-            android:text="Estado civil: Casado"
+            android:text="@string/estado_civil_casado"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" android:id="@+id/lblInfoEstadoCivil"
             app:layout_constraintStart_toStartOf="@+id/lblInfoNascimento"
             app:layout_constraintTop_toBottomOf="@+id/lblInfoNascimento"
             app:layout_constraintBottom_toTopOf="@+id/lblInfoTelefone" android:layout_marginTop="12dp"/>
     <TextView
-            android:text="(11) 9999-9999"
+            android:text="@string/numero_telefone"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" android:id="@+id/lblInfoTelefone"
             app:layout_constraintStart_toStartOf="@+id/lblInfoEstadoCivil"
             app:layout_constraintTop_toBottomOf="@+id/lblInfoEstadoCivil"
             app:layout_constraintBottom_toTopOf="@+id/lblEmailCadastrado" android:layout_marginTop="12dp"/>
     <TextView
-            android:text="eduardolouvize@gmail.com"
+            android:text="@string/eduardolouvize_gmail_com"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" android:id="@+id/lblEmailCadastrado"
             app:layout_constraintStart_toStartOf="@+id/lblInfoTelefone"

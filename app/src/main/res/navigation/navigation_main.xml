@@ -5,7 +5,7 @@
             app:startDestination="@id/telaInicialFragment">
 
     <fragment android:id="@+id/telaInicialFragment"
-              android:name="com.example.cadastrodepessoas.Fragments.TelaInicialFragment"
+              android:name="com.example.cadastrodepessoas.fragments.TelaInicialFragment"
               android:label="@string/tela_inicial" tools:layout="@layout/fragment_tela_inicial">
         <action android:id="@+id/action_telaInicialFragment_to_cadastroFragment"
                 app:destination="@id/cadastroFragment"/>
@@ -19,26 +19,26 @@
         <action android:id="@+id/action_telaInicialFragment_to_publicacoesFragment"
                 app:destination="@id/publicacoesFragment"/>
     </fragment>
-    <fragment android:id="@+id/cadastroFragment" android:name="com.example.cadastrodepessoas.Fragments.CadastroFragment"
+    <fragment android:id="@+id/cadastroFragment" android:name="com.example.cadastrodepessoas.fragments.CadastroFragment"
               android:label="@string/tela_de_cadastro" tools:layout="@layout/fragment_cadastro">
         <action android:id="@+id/action_cadastroFragment_to_listaCadastradosFragment"
                 app:destination="@id/listaCadastradosFragment"/>
     </fragment>
     <fragment android:id="@+id/listaCadastradosFragment"
-              android:name="com.example.cadastrodepessoas.Fragments.ListaCadastradosFragment"
+              android:name="com.example.cadastrodepessoas.fragments.ListaCadastradosFragment"
               android:label="@string/dados_cadastrados" tools:layout="@layout/fragment_lista_cadastrados"/>
     <fragment android:id="@+id/informacoesPessoaisFragment"
-              android:name="com.example.cadastrodepessoas.Fragments.InformacoesPessoaisFragment"
+              android:name="com.example.cadastrodepessoas.fragments.InformacoesPessoaisFragment"
               android:label="Informações Pessoais" tools:layout="@layout/fragment_informacoes_pessoais"/>
-    <fragment android:id="@+id/cursosFragment" android:name="com.example.cadastrodepessoas.Fragments.CursosFragment"
+    <fragment android:id="@+id/cursosFragment" android:name="com.example.cadastrodepessoas.fragments.CursosFragment"
               android:label="Cursos" tools:layout="@layout/fragment_cursos"/>
     <fragment android:id="@+id/experienciaProfissionalFragment"
-              android:name="com.example.cadastrodepessoas.Fragments.ExperienciaProfissionalFragment"
+              android:name="com.example.cadastrodepessoas.fragments.ExperienciaProfissionalFragment"
               android:label="Experiência Profissional"
               tools:layout="@layout/fragment_experiencia_profissional"/>
-    <fragment android:id="@+id/formacaoFragment" android:name="com.example.cadastrodepessoas.Fragments.FormacaoFragment"
+    <fragment android:id="@+id/formacaoFragment" android:name="com.example.cadastrodepessoas.fragments.FormacaoFragment"
               android:label="Formação" tools:layout="@layout/fragment_formacao"/>
     <fragment android:id="@+id/publicacoesFragment"
-              android:name="com.example.cadastrodepessoas.Fragments.PublicacoesFragment"
+              android:name="com.example.cadastrodepessoas.fragments.PublicacoesFragment"
               android:label="Publicações" tools:layout="@layout/fragment_publicacoes"/>
 </navigation>

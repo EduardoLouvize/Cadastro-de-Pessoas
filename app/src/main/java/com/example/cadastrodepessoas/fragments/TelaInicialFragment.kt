@@ -1,4 +1,4 @@
-package com.example.cadastrodepessoas.Fragments
+package com.example.cadastrodepessoas.fragments
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
